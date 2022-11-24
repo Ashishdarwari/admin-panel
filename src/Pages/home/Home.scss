@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+}
+.home {
+    display: flex;
+    .homecontainer {
+        // background-color: lightblue;
+        flex: 6;
+        .widgets, .charts{
+            display: flex;
+            padding: 2px;
+            gap: 20px;
+        }
+        .charts {
+            padding: 5px 20px;
+        }
+    } 
+    .listContainer {
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+         box-shadow: 2px 4px 10px 1px rgba(66, 59, 59, 0.47);
+         padding: 20px;
+         background-color: #333;
+        //  margin: 20px;
+     }
+     .listTitle {
+        font-weight: 500;
+        color: gray;
+        margin-bottom: 15px;
+     }
+}
